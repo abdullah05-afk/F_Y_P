@@ -33,8 +33,6 @@ temp/
 *.sublime-project
 
 # Build files
-dist/
-build/
 
 # Deployment-related
 render.yaml
