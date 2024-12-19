@@ -9,6 +9,7 @@ import {errorMiddleware} from './middlewares/error.js';
 import userRouter from "./router/userRouter.js";
 import appointmentRouter from "./router/appointmentRouter.js";
 
+
 const app = express();
 config({path: "./config/config.env"});
 
