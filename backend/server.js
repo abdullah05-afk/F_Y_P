@@ -15,6 +15,10 @@ config({ path: "./config/config.env" });
 
 const app = express();
 
+app.get('/', (req, res) => {
+    res.send('Hello World');
+  });
+
 // Cloudinary Configuration
 cloudinary.v2.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
