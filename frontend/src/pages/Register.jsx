@@ -24,7 +24,7 @@ const Register = () => {
         e.preventDefault();
         try {
             const response = await axios.post(
-                "http://localhost:4000/api/v1/user/patient/register" , // patient login Url
+               `${process.env.REACT_APP_BACKEND_URL}/user/patient/register`, // patient login Url
                 { 
                     firstName, 
                     lastName, 

@@ -14,7 +14,7 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/message/send",
+          `${process.env.REACT_APP_BACKEND_URL}/message/send`,
           { firstName, lastName, email, phone, message },
           {
             withCredentials: true,

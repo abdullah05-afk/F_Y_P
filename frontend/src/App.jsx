@@ -20,7 +20,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:4000/api/v1/user/patient/me",
+          `${process.env.REACT_APP_BACKEND_URL}/user/patient/me`,
           {
             withCredentials: true,
           }
