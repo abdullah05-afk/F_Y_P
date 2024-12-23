@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          `${process.env.REACT_APP_BACKEND_URL}/user/login`,
+          "http://localhost:4000/api/v1/user/login", //user/login,
           { email, password, confirmPassword, role: "Admin" },
           {
             withCredentials: true,

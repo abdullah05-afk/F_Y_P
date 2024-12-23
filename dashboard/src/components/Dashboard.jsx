@@ -13,7 +13,7 @@ const Dashboard = () => {
     const fetchAppointments = async () => {
       try {
         const { data } = await axios.get(
-         `${process.env.REACT_APP_BACKEND_URL}/appointment/getall`,
+         "http://localhost:4000/api/v1/appointment/getall", //appointment/getall,
           { withCredentials: true }
         );
         setAppointments(data.appointments);

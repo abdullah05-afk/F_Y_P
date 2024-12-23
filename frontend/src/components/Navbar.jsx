@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get(`${process.env.REACT_APP_BACKEND_URL}/user/patient/logout`, {
+      .get(`${process.env.REACT_APP_BACKEND_URL} //user/patient/logout`, {
         withCredentials: true,
       })
       .then((res) => {

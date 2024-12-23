@@ -7,12 +7,14 @@ const Hero = ({ title, imageUrl }) => {
         <div className="banner">
           <h1>{title}</h1>
           <p>
-            ZeeCare Medical Institute is a state-of-the-art facility dedicated
-            to providing comprehensive healthcare services with compassion and
-            expertise. Our team of skilled professionals is committed to
-            delivering personalized care tailored to each patient's needs. At
-            ZeeCare, we prioritize your well-being, ensuring a harmonious
-            journey towards optimal health and wellness.
+          "Welcome to our Hospital Management System – 
+          A cutting-edge solution designed to transform healthcare management. 
+          By integrating advanced technology with user-friendly interfaces, 
+          our platform ensures seamless coordination across departments, streamlined patient care, 
+          and enhanced operational efficiency. Whether it's managing patient records, scheduling appointments, 
+          or generating reports, our system empowers healthcare professionals to focus on what matters 
+          most – delivering exceptional care. Join us in shaping the future of healthcare with innovation, 
+          reliability, and precision."
           </p>
         </div>
         <div className="banner">
